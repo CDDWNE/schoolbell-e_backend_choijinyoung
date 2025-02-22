@@ -49,9 +49,6 @@ MySQL 또는 PostgreSQL을 사용하여 여러 단계의 승인 및 반려가 �
 
 이 두 테이블(`approval_requests`, `approval_histories`)은 결재 시스템의 핵심 로직을 담는 최소한의 테이블이라고 생각합니다.
 
-- “결재 요청” 단위(`approval_requests`)
-- “결재 이력” 단위(`approval_histories`)
-
 ## 쿼리 작성 의도
 
 - 특정 사용자가 처리해야할 결재 요청 중에서, 전체 상태가 'pending' 또는 'in_progress'인 건들만 조회
