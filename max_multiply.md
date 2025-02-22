@@ -24,5 +24,5 @@
 
 ## 실행 방법
 
-tsc
-node max_multiply.js
+1. tsc
+2. node max_multiply.js
